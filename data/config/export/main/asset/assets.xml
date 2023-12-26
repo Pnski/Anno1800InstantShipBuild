@@ -1,0 +1,33 @@
+<ModOps>
+  <!-- Sailing Ships -->
+  <ModOp Type="replace" GUID='100438,100437,7080,100439,100441,100440' Path="/Values/Craftable">
+    <Craftable>
+      <CraftingTime>0</CraftingTime>
+    </Craftable>
+  </ModOp>
+  <!-- Steel Ships -->
+  <ModOp Type="replace" GUID='1010062,100442,7076,100443,968,1537,100853,118718,720,15831,15835,15836' Path="/Values/Craftable">
+    <Craftable>
+      <CraftingTime>0</CraftingTime>
+    </Craftable>
+  </ModOp>
+  <!-- Air Ships -->
+  <ModOp Type="replace" GUID='1654,1054,1655,1056,1058,1059,1060,1755,1733,1731,1734,1732,1735,1736,1737,114166' Path="/Values/Craftable">
+    <Craftable>
+      <CraftingTime>0</CraftingTime>
+    </Craftable>
+  </ModOp>
+  <!-- Ships by items (could probably replaced in template)-->
+  <!--sailing-->
+  <ModOp Type="replace" GUID='102427,102419,102421,102420' Path="/Values/Craftable">
+    <Craftable>
+      <CraftingTime>0</CraftingTime>
+    </Craftable>
+  </ModOp>
+  <!--steam-->
+  <ModOp Type="replace" GUID='102455,132404,102428,102425,102423,102422' Path="/Values/Craftable">
+    <Craftable>
+      <CraftingTime>0</CraftingTime>
+    </Craftable>
+  </ModOp>
+</ModOps>
