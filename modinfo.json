@@ -1,8 +1,10 @@
 {
-  "Version": "0.0.1",
+  "Version": "0.0.2",
   "ModID": "InstantShipBuild",
   "DeprecateIds": [],
-  "LoadAfterIds": [],
+  "LoadAfterIds": ["Imperio Schiffswerft",
+  "Eva_Icebreaker",
+  "Tisogno_FunnyShips"],
   "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
@@ -19,17 +21,17 @@
     "Taiwanese": "Misc"
   },
   "ModName": {
-    "Chinese": "InstantShipBuild",
-    "English": "InstantShipBuild",
-    "French": "InstantShipBuild",
-    "German": "InstantShipBuild",
-    "Italian": "InstantShipBuild",
-    "Japanese": "InstantShipBuild",
-    "Korean": "InstantShipBuild",
-    "Polish": "InstantShipBuild",
-    "Russian": "InstantShipBuild",
-    "Spanish": "InstantShipBuild",
-    "Taiwanese": "InstantShipBuild"
+    "Chinese": "Instant Ship Build",
+    "English": "Instant Ship Build",
+    "French": "Instant Ship Build",
+    "German": "Instant Ship Build",
+    "Italian": "Instant Ship Build",
+    "Japanese": "Instant Ship Build",
+    "Korean": "Instant Ship Build",
+    "Polish": "Instant Ship Build",
+    "Russian": "Instant Ship Build",
+    "Spanish": "Instant Ship Build",
+    "Taiwanese": "Instant Ship Build"
   },
   "Description": {
     "English": null,

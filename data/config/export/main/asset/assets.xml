@@ -1,6 +1,6 @@
 <ModOps>
   <!-- Sailing Ships -->
-  <ModOp Type="replace" GUID='100438,100437,7080,100439,100441,100440' Path="/Values/Craftable">
+  <ModOp Type="merge" GUID='100438,100437,7080,100439,100441,100440' Path="/Values/Craftable">
     <Craftable>
       <CraftingTime>0</CraftingTime>
     </Craftable>
@@ -26,6 +26,26 @@
   </ModOp>
   <!--steam-->
   <ModOp Type="replace" GUID='102455,132404,102428,102425,102423,102422' Path="/Values/Craftable">
+    <Craftable>
+      <CraftingTime>0</CraftingTime>
+    </Craftable>
+  </ModOp>
+  <!--imperio-->
+  <!-- Viermastbark --><!-- Linienschiff --><!-- Royaler Clipper --><!-- kleines Piratenschiff--><!-- Vasco 2 --><!-- Abate's Ship --><!-- Jailor's Ship --><!-- Paloma's Flagship --><!-- Queen --><!-- Siege Cruiser Belagerungsschiff --><!-- Dampfkühlschiff Catania --><!-- Raddampfer --><!-- Altes Fischerboot --><!-- RMS Leviathan --><!-- White Star Class --><!-- Kleines Motorboot --><!-- Eisbrecher --><!-- Whale Ship --><!-- Mateo's Boot --><!-- Expeditionsschiff -->
+  <ModOp Type="merge" GUID='1947537,1947560,2130020011,2130020003,2130020009,2130020013,2130020063,2130020017,2130020018,2130020021,2130020023,2130020069,2130020071,2130020027,2130020077,2130020079,2130020081,2130020083,2130020085,2130020057,2130020099' Path="/Values/Craftable" Condition="#Imperio Schiffswerft">
+    <Craftable>
+      <CraftingTime>0</CraftingTime>
+    </Craftable>
+  </ModOp>
+  <!--icebreaker-->
+  <ModOp Type="merge" GUID='2142000001' Path="/Values/Craftable" Condition="#Eva_Icebreaker">
+    <Craftable>
+      <CraftingTime>0</CraftingTime>
+    </Craftable>
+  </ModOp>
+  <!--tisogno funny ships-->
+  <!--Ballon,BlueWhale,NatesAirship,FlyingGhostship,Hemmingway,Iceberg,RoyalAirship,Titanic,MobyDick,WhiteShark-->
+  <ModOp Type="merge" GUID='1957001800,1957001181,1957001021,1957001101,1957001121,1957006345,1957001001,1957001061,1957001141,1957001041' Path="/Values/Craftable" Condition="#Tisogno_FunnyShips">
     <Craftable>
       <CraftingTime>0</CraftingTime>
     </Craftable>
